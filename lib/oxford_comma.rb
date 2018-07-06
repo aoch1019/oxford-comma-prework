@@ -8,7 +8,7 @@ def oxford_comma(array)
   when 2
     conv_string = " and " + array.pop
   else
-    conv_string = " ,and " + array.pop
+    conv_string = ", and " + array.pop
   end
   conv_string.prepend(array.join(", "))
   return conv_string
