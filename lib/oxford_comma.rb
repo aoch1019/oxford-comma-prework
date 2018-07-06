@@ -4,7 +4,7 @@ def oxford_comma(array)
   when 0
     return ""
   when 1
-    return array.push
+    return array.pop
   when 2
     conv_string = " and " + array.pop
   else
