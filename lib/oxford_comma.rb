@@ -1,5 +1,6 @@
 def oxford_comma(array)
   conv_string = ""
+  case array.length
   if array.length == 0
     return ""
   elsif array.length == 1
